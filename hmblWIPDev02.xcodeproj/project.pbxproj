@@ -21,6 +21,9 @@
 		49AE97A118C7CFB200D304D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AE978318C7CFB200D304D5 /* UIKit.framework */; };
 		49AE97A918C7CFB200D304D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49AE97A718C7CFB200D304D5 /* InfoPlist.strings */; };
 		49AE97AB18C7CFB200D304D5 /* hmblWIPDev02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AE97AA18C7CFB200D304D5 /* hmblWIPDev02Tests.m */; };
+		49AE97B518C7D04A00D304D5 /* hmblstartscreenFLAT.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AE97B418C7D04A00D304D5 /* hmblstartscreenFLAT.png */; };
+		49AE97B718C7DC9D00D304D5 /* humble_facebookCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AE97B618C7DC9D00D304D5 /* humble_facebookCircle.png */; };
+		49AE97B918C7DD1300D304D5 /* humble_googleplusCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AE97B818C7DD1300D304D5 /* humble_googleplusCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		49AE97A618C7CFB200D304D5 /* hmblWIPDev02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hmblWIPDev02Tests-Info.plist"; sourceTree = "<group>"; };
 		49AE97A818C7CFB200D304D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49AE97AA18C7CFB200D304D5 /* hmblWIPDev02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hmblWIPDev02Tests.m; sourceTree = "<group>"; };
+		49AE97B418C7D04A00D304D5 /* hmblstartscreenFLAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hmblstartscreenFLAT.png; sourceTree = "<group>"; };
+		49AE97B618C7DC9D00D304D5 /* humble_facebookCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humble_facebookCircle.png; sourceTree = "<group>"; };
+		49AE97B818C7DD1300D304D5 /* humble_googleplusCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humble_googleplusCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		49AE978518C7CFB200D304D5 /* hmblWIPDev02 */ = {
 			isa = PBXGroup;
 			children = (
+				49AE97B818C7DD1300D304D5 /* humble_googleplusCircle.png */,
+				49AE97B618C7DC9D00D304D5 /* humble_facebookCircle.png */,
+				49AE97B418C7D04A00D304D5 /* hmblstartscreenFLAT.png */,
 				49AE978E18C7CFB200D304D5 /* HSDAppDelegate.h */,
 				49AE978F18C7CFB200D304D5 /* HSDAppDelegate.m */,
 				49AE979118C7CFB200D304D5 /* Main.storyboard */,
@@ -230,8 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49AE979818C7CFB200D304D5 /* Images.xcassets in Resources */,
+				49AE97B718C7DC9D00D304D5 /* humble_facebookCircle.png in Resources */,
 				49AE978A18C7CFB200D304D5 /* InfoPlist.strings in Resources */,
+				49AE97B518C7D04A00D304D5 /* hmblstartscreenFLAT.png in Resources */,
 				49AE979318C7CFB200D304D5 /* Main.storyboard in Resources */,
+				49AE97B918C7DD1300D304D5 /* humble_googleplusCircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
