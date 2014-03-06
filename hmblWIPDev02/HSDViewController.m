@@ -18,8 +18,10 @@
 @property (nonatomic, strong) UIImageView *gooplusImageView;
 // hmbl
 @property (nonatomic, strong) UILabel *titleLabel;
-// registration
+// registration with apis
 @property (nonatomic, strong) UILabel *regLabel;
+// registration blank slate
+//@property (nonatomic, strong) UILabel *newRegLabel;
 
 @end
 
@@ -61,6 +63,8 @@
     self.regLabel.font = [UIFont fontWithName:@"Helvetica" size:15.0];
     [self.regLabel sizeToFit];
     
+    //
+    
     // Place the labels
     self.titleLabel.center = (CGPoint) {
         .x = screenCenter.x,
@@ -72,28 +76,30 @@
     };
     
     self.facebookImageView.center = (CGPoint) {
-        .x = 75.0,
+        .x = 115.0,
         .y = screenCenter.y
     };
     
     self.gooplusImageView.center = (CGPoint) {
-        .x = 250.0,
+        .x = 315.0,
         .y = screenCenter.y
     };
     
-    //set contentMode to scale aspect to fit
-    self.facebookImageView.contentMode = UIViewContentModeScaleAspectFit;
+//    //set contentMode to scale aspect to fit
+//    self.facebookImageView.contentMode = UIViewContentModeScaleAspectFit;
     //change width of frame
-    CGRect fbframe = UIImageView.frame;
-    fbframe.size.width = 30;
-    self.facebookImageView.frame = fbframe;
+    CGRect newFrame1 = self.facebookImageView.frame;
+    newFrame1.size.width = 100;
+    newFrame1.size.height = 100;
+    [self.facebookImageView setFrame:newFrame1];
     
-    //set contentMode to scale aspect to fit
-    self.gooplusImageView.contentMode = UIViewContentModeScaleAspectFit;
+//    //set contentMode to scale aspect to fit
+//    self.gooplusImageView.contentMode = UIViewContentModeScaleAspectFit;
     //change width of frame
-    CGRect gooframe = UIImageView.frame;
-    gooframe.size.width = 30;
-    self.facebookImageView.frame = gooframe;
+    CGRect newFrame2 = self.gooplusImageView.frame;
+    newFrame2.size.width = 100;
+    newFrame2.size.height = 100;
+    [self.gooplusImageView setFrame:newFrame2];
     
     // Align to center.
     self.titleLabel.textAlignment = NSTextAlignmentCenter;
